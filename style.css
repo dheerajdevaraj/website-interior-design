@@ -61,7 +61,7 @@ body
 }
 .fourth-section
 {
-    background-image: url("/assets/images/section-4.png");
+    background-image: url("/asset/images/section-4.png");
     background-repeat: no-repeat;
 }
 .fourth-section h1
@@ -76,7 +76,7 @@ body
 }
 .sixth-section
 {
-    background-image: url("/assets/images/contact-brilliantpng.png");
+    background-image: url("/asset/images/contact-brilliantpng.png");
     background-repeat: repeat;
     background-position: 5% 66%;
     color: white;
@@ -106,7 +106,7 @@ body
     width:200px;
 }
 .last-section{
-    background-image: url("/assets/images/image-about-us\ 1.png");
+    background-image: url("/asset/images/image-about-us\ 1.png");
     background-repeat: no-repeat;
     background-size:cover;
 }
