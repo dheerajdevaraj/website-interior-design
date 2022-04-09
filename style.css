@@ -1,0 +1,140 @@
+body
+{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    position: relative;
+   
+}
+.container-fluid
+{
+    margin: 0px;
+}
+.navbar
+{
+    background-color: #0b1320;
+    color:#d6d6d6;
+}
+.navbar-brand,.navbar li a
+{
+    color:#d6d6d6;
+}
+.navbar li a:hover
+{
+    color:#FFA42E;
+    text-decoration: none;
+}
+.first-section h1 
+{
+   font-size: 55px;
+   font-weight:600;
+}
+.first-section h6
+{
+    font-size: 40px;
+    font-weight:300;
+}
+.first-section .btn
+{
+    background: #FFA42E;
+    border: none;
+    color: #fff;
+    border-radius: 0px;
+}
+.first-section .btn:hover
+{
+    background: #0b1320;
+}
+.second-section .card,.fifth-section .card
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.second-section
+{
+    background: #f6f6f6;
+}
+.second-section .card
+{
+    transition: transform .2s;
+}
+.second-section .card:hover
+{
+    transform: scale(1.1);
+}
+.fourth-section
+{
+    background-image: url("images/section-4.png");
+    background-repeat: no-repeat;
+}
+.fourth-section h1
+{
+    font-size: 60px;
+}
+#icon-1,#icon-2,#icon-3
+{
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.sixth-section
+{
+    background-image: url("images/contact-brilliantpng.png");
+    background-repeat: repeat;
+    background-position: 5% 66%;
+    color: white;
+}
+.sixth-section .btn
+{
+    background-color: #0b1320;
+    color: #f6f6f6;
+    padding: 10px;
+}
+.sixth-section .btn:hover
+{
+    background-color: #ffffff;
+    color: #0b1320;
+    padding: 10spx;
+}
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+.fifth-section img
+{
+    width: 500px;
+    height: 300px;
+}
+.last-section img
+{
+    width:200px;
+}
+.last-section{
+    background-image: url("images/image-about-us\ 1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.last-section .btn
+{
+    background-color: #FFA42E;
+    color: #f6f6f6;
+}
+.last-section .btn:hover
+{
+    background-color: #0b1320;
+    color: #f6f6f6;
+}
+
+@media screen and (max-width: 820px)
+{
+.first-section h1 
+{
+   font-size: 35px;
+   font-weight:600;
+}
+.first-section h6
+{
+    font-size: 30px;
+    font-weight:300;
+}
+.last-section{
+    background-image: none;
+   
+}
+}
